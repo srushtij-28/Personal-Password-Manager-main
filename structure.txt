@@ -1,0 +1,26 @@
+1. Features
+Add website and account credentials.
+Encrypt passwords before saving.
+View saved account details.
+Search passwords by website.
+Update saved credentials.
+Delete saved credentials.
+Generate strong random passwords.
+Master password authentication.
+
+2. Project structure
+Personal_Password_Manager/
+│
+├── main.py
+├── password_manager.py
+├── encryption.py
+├── password_generator.py
+├── storage.py
+├── config.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── passwords.json
+    └── master.json
